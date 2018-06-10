@@ -1,0 +1,37 @@
+{
+  "name": "driveway-protection",
+  "version": "1.0.0",
+  "description": "License Plate detection to alert when someone approaches",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaurer/driveway-protection.git"
+  },
+  "keywords": [
+    "node",
+    "opelalpr",
+    "license",
+    "plate",
+    "detection",
+    "security",
+    "txt",
+    "text",
+    "message",
+    "alert"
+  ],
+  "author": "amaurer",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/amaurer/driveway-protection/issues"
+  },
+  "homepage": "https://github.com/amaurer/driveway-protection#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "twilio": "^3.17.2"
+  }
+}
